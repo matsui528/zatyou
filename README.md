@@ -1,9 +1,16 @@
 # 座長配置問題
 
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/matsui528/zatyou)
+
 座長候補者の予定をもとに、最適な座長配置を線形配置問題を解くことで決定する。
 
+## 実行（ブラウザ）
+- 上の`Open in GitHub Codespaces`バッジを押す
+- 緑色の`Create codespace`ボタンを押してcodespaceを立ち上げる
+- `cost.csv`を編集する
+- ターミナルで`python assign.py cost.csv`を実行
 
-## 実行
+## 実行（ローカル）
 ```bash
 pip install scipy
 git clone https://github.com/matsui528/zatyou.git
